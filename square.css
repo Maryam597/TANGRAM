@@ -1,0 +1,77 @@
+.triangle {
+    position: relative;
+    height: 71px;
+    width: 71px;
+    background-color: blue;
+    top: 335px;
+    left: 465px;
+    transform: rotate(45deg);
+}
+.triangle2 {
+    position: relative;
+    height: 0px;
+    width: 0px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-top: 100px solid green;
+    transform: rotate(180deg);
+    top: 200px;
+    left: 450px;
+}
+.carre {
+    position: relative;
+    height: 0px;
+    width: 0px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-top: 100px solid red;
+    transform: rotate(90deg);
+    top: 0px;
+    left: 450px;
+}
+.triangle3 {
+    position: relative;
+    height: 0px;
+    width: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-top: 50px solid pink;
+    transform: rotate(270deg);
+    top: -100px;
+    left: 450px;
+}
+.triangle4 {
+    position: relative;
+    height: 0px;
+    width: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-top: 50px solid yellow;
+    top: -250px;
+    left: 500px;
+}
+.triangle5 {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    top: -400px;
+    left: 525px;
+    transform: skew(135deg);
+}
+.parallelogram {
+    position: relative;
+    height: 0px;
+    width: 0px;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 70px solid transparent;
+    border-top: 70px solid brown;
+    transform: rotate(135deg);
+    top: -520px;
+    left: 380px;
+}

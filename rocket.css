@@ -1,0 +1,119 @@
+.container {
+    width: 650px;
+    height: 600px;
+    background-color: #333;
+    float: left;
+}
+.tangram{
+    padding: 20px 30px;
+    position: relative;
+}
+
+.triangle{
+    width: 0;
+	height: 0;
+	position: absolute;
+    border-left: 50px solid #d2696a;
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+    transform: rotate(38deg);
+    left: 165px;
+    top: 255px;
+    
+
+}
+.triangle2{
+    width: 0;
+	height: 0;
+	position: absolute;
+    border-left: 50px solid #7e2b7c;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    transform: rotate(218deg);
+    left: 197px;
+    top: 215px;
+    
+}
+.triangle3{
+    width: 0;
+	height: 0;
+	position: absolute;
+    border-left: 70px solid #189184;
+    border-top: 70px solid transparent;
+    border-bottom: 70px solid transparent;
+    transform: rotate(307deg);
+    left: 374px;
+    top: 48px;
+    
+}
+
+.triangle4{
+    width: 0;
+	height: 0;
+	position: absolute;
+    border-left: 100px solid #FBC002;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    transform: rotate(262deg);
+    left: 287px;
+    top: 54px;
+}
+
+
+.triangle5{
+    width: 0;
+	height: 0;
+	position: absolute;
+    border-left: 100px solid #b20000;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    transform: rotate(82deg);
+    left: 301px;
+    top: 155px;
+
+}
+.carre{
+    position: absolute;
+    background-color: #F48400;
+    width: 70px;
+    height: 70px;
+    transform: rotate(128deg);
+    left: 244px;
+    top: 256px;
+    
+}
+.parallelogram{
+    /* position: absolute;
+    background-color: #81b442;
+    width: 80px;
+  height: 90px;
+  clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
+  left: 276px;
+    top: 318px;    
+    transform: rotate(80deg); */
+    width: 60px;
+    height: 100px;
+    background: green;
+    transform: skew(20deg, 20deg);
+    rotate: 237deg;
+    left: 275px;
+    top: 308px;
+
+}
+
+
+.buttons{
+    float: left;
+	width: 140px;
+}
+button{
+    background-color: #cb0b0b;
+	border: none;
+	color: #fff;
+	font-size: 14px;
+	padding: 10px 15px;
+	width: 140px;
+	text-align: left;
+	margin-bottom: 4px;
+	cursor: pointer;
+}
