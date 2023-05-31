@@ -91,14 +91,25 @@
   left: 276px;
     top: 318px;    
     transform: rotate(80deg); */
-    width: 60px;
+    /* width: 60px;
     height: 100px;
     background: green;
     transform: skew(20deg, 20deg);
     rotate: 237deg;
     left: 275px;
-    top: 308px;
+    top: 308px; */
 
+    /* position: absolute;
+    background-color: #81b442;
+    width: 115px; 
+    height: 60px;
+    transition: 3.5s;
+    position: absolute;
+    background-color: #81b442;
+    width: 115px; 
+    height: 60px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+         transform: rotate(154deg); */
 }
 
 
